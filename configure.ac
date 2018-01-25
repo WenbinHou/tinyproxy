@@ -213,8 +213,8 @@ AC_PATH_PROG(XSLTPROC, xsltproc, no)
 AM_CONDITIONAL(HAVE_XSLTPROC, test "x$XSLTPROC" != "xno")
 
 # Check for asciidoc
-AC_PATH_PROG(A2X, a2x, no)
-AM_CONDITIONAL(HAVE_A2X, test "x$A2X" != "xno")
+#AC_PATH_PROG(A2X, a2x, no)
+#AM_CONDITIONAL(HAVE_A2X, test "x$A2X" != "xno")
 
 # checking xmllint
 AC_PATH_PROG(XMLLINT, xmllint, no)
@@ -237,11 +237,6 @@ src/Makefile
 data/Makefile
 data/templates/Makefile
 etc/Makefile
-docs/Makefile
-docs/man5/Makefile
-docs/man5/tinyproxy.conf.txt
-docs/man8/Makefile
-docs/man8/tinyproxy.txt
 m4macros/Makefile
 tests/Makefile
 tests/scripts/Makefile
